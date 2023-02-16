@@ -1,0 +1,27 @@
+body{
+background-image: url(./images/bg-intro-desktop.png);
+background-color: hsl(0, 100%, 74%);
+}
+.App{
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  height:680PX;
+  margin: 0 auto;
+  align-items: center;
+  border: 2px solid red;
+}
+.textArea{
+  width: 30vw;
+  height: 60vh;
+  padding: 90px 0px;
+}
+
+.textArea h1{
+  font-size: 2.7rem;
+  color: white;
+}
+.textArea p{
+  color: white;
+  margin-top: 40px;
+}
