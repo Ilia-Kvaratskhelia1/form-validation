@@ -14,17 +14,21 @@ background-color: hsl(0, 100%, 74%);
   border: 2px solid red;
 }
 .textArea{
-  width: 30vw;
+  width: 500px;
   height: 60vh;
   padding: 90px 0px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
+  text-align: center;
 }
 
 .textArea h1{
   font-size: 2.7rem;
   color: white;
+  white-space:wrap;
 }
 .textArea p{
   color: white;
   margin-top: 40px;
+  white-space:wrap;
+
 }
