@@ -11,7 +11,7 @@ background-color: hsl(0, 100%, 74%);
   height:680PX;
   margin: 0 auto;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .textArea{
   width: 500px;
