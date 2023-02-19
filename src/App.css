@@ -3,7 +3,9 @@ background-image: url(./images/bg-intro-desktop.png);
 background-color: hsl(0, 100%, 74%);
 }
 .App{
+  height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   width: 80vw;
   height:680PX;
@@ -15,6 +17,7 @@ background-color: hsl(0, 100%, 74%);
   width: 30vw;
   height: 60vh;
   padding: 90px 0px;
+  border: 2px solid white;
 }
 
 .textArea h1{

@@ -33,7 +33,14 @@
     /* border: 2px solid red; */
     width: 80%;
     height: 50px;
+    display: flex;
+    position: relative;
 
+}
+.errorStyle{
+    position: absolute;
+    right: 5px;
+    top: 13px;
 }
 input{
     border: 1px solid rgb(202, 202, 202);
@@ -74,4 +81,8 @@ button:hover{
 .infSPan{
     color: brown;
     font-weight: 600;
+}
+.errorMail{
+    color:black;
+    font-size: 1.25;
 }
